@@ -1,0 +1,5 @@
+CREATE TABLE tasks (
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    concluida BOOLEAN DEFAULT FALSE
+);
